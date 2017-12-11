@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define AB(x) x*x
+#define Mylog(a) NSLog(@"%d的平方:%d",a,AB(a))
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Mylog(100);
     }
     return 0;
 }
